@@ -1,0 +1,1 @@
+<footer> <p>&copy; 2025 Hazo Store. جميع الحقوق محفوظة.</p> </footer> </body> </html>

@@ -1,0 +1,100 @@
+/* === Admin Panel Layout === */
+body {
+    font-family: 'Cairo', sans-serif;
+    background-color: #f5f6fa;
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+}
+
+.admin-header {
+    background-color: #d63384;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+}
+
+.admin-nav {
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.admin-nav a {
+    color: #333;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    transition: background 0.3s;
+}
+
+.admin-nav a:hover {
+    background-color: #d63384;
+    color: #fff;
+}
+
+.admin-container {
+    padding: 30px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.admin-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.admin-table th,
+.admin-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+}
+
+.admin-table th {
+    background-color: #f1f1f1;
+    color: #333;
+    font-weight: bold;
+}
+
+.admin-actions button,
+.admin-actions a {
+    padding: 6px 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #d63384;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.3s;
+    margin: 0 3px;
+}
+
+.admin-actions button:hover,
+.admin-actions a:hover {
+    background-color: #b3226a;
+}
+
+.success-message {
+    background-color: #d4edda;
+    color: #155724;
+    padding: 10px;
+    border: 1px solid #c3e6cb;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+.error-message {
+    background-color: #f8d7da;
+    color: #721c24;
+    padding: 10px;
+    border: 1px solid #f5c6cb;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
